@@ -295,7 +295,7 @@ shared_ptr<Face>
 StackHelper::PointToPointNetDeviceCallback(Ptr<Node> node, Ptr<L3Protocol> ndn,
                                            Ptr<NetDevice> device) const
 {
-  NS_LOG_DEBUG("Creating point-to-point Face on node " << node->GetId());
+  NS_LOG_DEBUG("Creating point-to-point Face on node gag " << node->GetId());
 
   Ptr<PointToPointNetDevice> netDevice = DynamicCast<PointToPointNetDevice>(device);
   NS_ASSERT(netDevice != nullptr);
